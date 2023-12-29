@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url('sakura.jpeg');
+    background-size: cover;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    height: 30px;
+    width: 200px;
+    border-radius: 30px;
+    padding-left: 30px;
+    border: none;
+}
+select{
+    border-radius: 300px;
+    border: none;
+}
+button{
+    border-radius: 300px;
+    padding: 5px;
+    border: none;
+    background-color: #fff;
+}
+#result{
+    color: aliceblue;
+    height: 30px;
+    border-radius: 20px;
+    width: auto;
+    background-color: #851c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
